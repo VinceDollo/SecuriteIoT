@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_button.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_categorie.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_info.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_input.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_search.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/background_vulne.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_disconnect.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_edit.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_find_object.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_gps.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_home.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_person_profil.xml" value="0.151" />
+        <entry key="app/src/main/res/drawable/img_profil.xml" value="0.151" />
+        <entry key="app/src/main/res/layout/activity_principal_page.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_sign_in.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/activity_sign_up.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_blank.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_categories.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_coffe_maker.xml" value="0.29583333333333334" />
+        <entry key="app/src/main/res/layout/fragment_domotique.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_drone.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_enceinte.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_find_product.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_g_p_s.xml" value="0.14114583333333333" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_hub.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_lampes.xml" value="0.3098958333333333" />
+        <entry key="app/src/main/res/layout/fragment_medical.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_objet.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_profil.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_sub_categories_domotique.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_t_v.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/layout/fragment_transport.xml" value="0.3098958333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
