@@ -52,12 +52,16 @@ public class CoffeMakerFragment extends Fragment {
                             DocumentSnapshot documentSnapshot = task.getResult().getDocuments().get(0);
                             ArrayList<String> a = new ArrayList<>();
                             a = (ArrayList<String>) documentSnapshot.getData().get(Constants.KEY_COLLECTION_CATEGORIES_VULNERABILITES);
+
                             int i = 0;
                             for (String b : a) {
                                 vulne.put(i, b);
                                 i++;
                             }
+
                             bundle1.putSerializable("HashMap", vulne);
+                            String description = (String) documentSnapshot.getData().get("description");
+                            bundle1.putString("description", description);
                             bundle1.putString("name", "Coffee Maker Jura");
                             bundle1.putString("image", "coffee_jura");
 

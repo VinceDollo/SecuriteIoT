@@ -59,6 +59,8 @@ public class DroneFragment extends Fragment {
                                 vulne.put(i, b);
                                 i++;
                             }
+                            String description = (String) documentSnapshot.getData().get("description");
+                            bundle1.putString("description", description);
                             bundle1.putSerializable("HashMap", vulne);
                             bundle1.putString("image", "parrot_anafi");
                             bundle1.putString("name", "Parrot Anafi Drone");

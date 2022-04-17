@@ -59,6 +59,8 @@ public class LampesFragment extends Fragment {
                                 vulne.put(i, b);
                                 i++;
                             }
+                            String description = (String) documentSnapshot.getData().get("description");
+                            bundle1.putString("description", description);
                             bundle1.putSerializable("HashMap", vulne);
                             bundle1.putString("image", "philips_hue");
                             bundle1.putString("name", "Philips Hue Bulb");

@@ -59,6 +59,8 @@ public class EnceinteFragment extends Fragment {
                                 vulne.put(i, b);
                                 i++;
                             }
+                            String description = (String) documentSnapshot.getData().get("description");
+                            bundle1.putString("description", description);
                             bundle1.putSerializable("HashMap", vulne);
                             bundle1.putString("image", "amazon_echo_dot");
                             bundle1.putString("name", "Amazon Echo Dot");

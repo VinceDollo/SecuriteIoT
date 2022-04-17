@@ -64,6 +64,8 @@ public class HubFragment extends Fragment {
                                     vulne.put(i, b);
                                     i++;
                                 }
+                                String description = (String) documentSnapshot.getData().get("description");
+                                bundle1.putString("description", description);
                                 bundle1.putSerializable("HashMap", vulne);
                                 bundle1.putString("name", "Samsung Smart Hub");
                                 bundle1.putString("image", "samsung_smartthings_hub");

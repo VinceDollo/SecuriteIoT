@@ -34,6 +34,7 @@ public class ObjetFragment extends Fragment {
 
     private String name;
     private String image;
+    private String description;
 
     private PreferenceManager preferenceManager;
 
@@ -59,6 +60,8 @@ public class ObjetFragment extends Fragment {
             hashMap = (HashMap<Integer, String>) bundle.getSerializable("HashMap");
             name = bundle.getString("name");
             image = bundle.getString("image");
+            description = bundle.getString("description");
+            binding.description.setText(description);
             binding.name.setText(name);
             String text = "";
             for(Map.Entry<Integer, String> entry : hashMap.entrySet()) {
@@ -86,7 +89,8 @@ public class ObjetFragment extends Fragment {
                     FirebaseFirestore database = FirebaseFirestore.getInstance();
                     HashMap<String, Object> userInfoObjet = new HashMap<>();
                     userInfoObjet.put(Constants.KEY_NAME, name);
-                    userInfoObjet.put(Constants.KEY_COLLECTION_CATEGORIES_VULNERABILITES, arrayList);
+                     userInfoObjet.put("description", description);
+                     userInfoObjet.put(Constants.KEY_COLLECTION_CATEGORIES_VULNERABILITES, arrayList);
                     database.collection(preferenceManager.getString(Constants.KEY_USER_ID)).add(userInfoObjet).addOnSuccessListener(documentReference -> {
                         binding.buttonAdd.setEnabled(false);
                         Utils.toast("Data add successfully", getActivity());
